@@ -1,0 +1,13 @@
+:root {
+    --main-font: 'Roboto';
+    --base-font-size: 16px;
+    --padding: 1em;
+    --background-color: #0F0F0F;
+    --light-color: #E2E2E2;
+    --primary-color: #FFED4D;
+}
+
+
+@media (min-width: 720px) {
+
+}

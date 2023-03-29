@@ -1,0 +1,55 @@
+html *:where(:not(audio, canvas, iframe, img, svg, video):not(svg *, symbol *)) {
+	all: unset;
+	display: revert;
+}
+
+html *,
+html *::before,
+html *::after {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+button {
+	cursor: revert;
+}
+
+details summary,
+menu,
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+textarea {
+	white-space: revert;
+}
+
+::placeholder {
+	all: unset;
+}
+
+iframe {
+	border: unset;
+}
+
+
+
+/* Disclosure triangles. */
+details ::marker,
+details ::-webkit-details-marker {
+	display: none;
+}
