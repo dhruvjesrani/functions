@@ -23,6 +23,27 @@ h1 {
     font-size: var(--headings-font-size);
 }
 
+.search {
+    display: flex;
+    gap: 8px;
+    background-color: #1E1E20 ;
+    margin-bottom: 8px;
+    color: var(--light-color);
+    padding: 8px 16px 8px 16px;
+    border-radius: 16px;
+    width: 350px;
+}
+
+.search input[type="text"]::placeholder {
+    opacity: 50%;
+    font-family: var(--main-font);
+}
+
+.search input[type="text"]:focus {
+    opacity: 100%;
+    font-family: var(--main-font);
+}
+
 .emoji {
     font-size: 56px;
 }
