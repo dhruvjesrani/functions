@@ -110,18 +110,96 @@ img {
     background-color: var(--primary-color);
     color: var(--background-color);
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 40px 20px 40px;
     margin-top: 16px;
     border-radius: var(--base-font-size);
+    max-width: 350px;
 
 }
 
+.coffee-image-desktop {
+    display: none;
+}
 
-@media (min-width: 720px) {
+.weather-container {
+    max-width: 500px;
+}
+
+.button-desktop {
+    display: none;
+}
+
+
+@media (min-width: 1000px) {
 
     :root {
         --headings-font-size: 56px;
     }
 
+    body {
+        margin: 5vw 20vw 5vw 20vw;
+        position: relative;
+        
+    }
+
+    .under-weather-content {
+        display: flex;
+        gap: 80px;
+    }
+
+    .weather-container {
+        max-width: 348px;
+    }
+
+    .coffee-image {
+        position: absolute;
+        right: 5vw;
+        top: 10vw;
+    }
+
+    .coffee-image {
+        display: none;
+    }
+
+    .coffee-image-desktop {
+        display: block;
+        border-radius: 24px;
+        width: 535px;
+        min-width: 350px;
+        height: 734px;
+    }
+
+    .button {
+        max-width: fit-content;
+        padding: 20px 40px 20px 40px ;
+    }
+
+    .button-desktop {
+        display: block;
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        text-align: center;
+        padding: 20px 40px 20px 40px;
+        margin-top: 16px;
+        border-radius: var(--base-font-size);
+        max-width: 350px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .overview-card {
+        margin: 0px;
+    }
+
+    .overview {
+        margin: 0px;
+        margin-bottom: 16px ;
+    }
+
+    .drumroll {
+        padding: 24px 0px 24px 0px;
+    }
 
 }
