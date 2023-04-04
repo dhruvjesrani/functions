@@ -1,13 +1,68 @@
 :root {
-    --main-font: 'Roboto';
+    --main-font: 'Archivo', sans-serif;
     --base-font-size: 16px;
-    --padding: 1em;
-    --background-color: #0F0F0F;
+    --headings-font-size: 40px;
+    --padding: 12px;
+    --background-color: #111114;
     --light-color: #E2E2E2;
-    --primary-color: #FFED4D;
+    --primary-color: #FFC549;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--background-color);
+    color: var(--light-color);
+    padding: var(--padding);
+}
+
+p {
+    font-size: var(--base-font-size);
+}
+
+h1 {
+    font-size: var(--headings-font-size);
+}
+
+.emoji {
+    font-size: 56px;
+}
+
+.weather-details-container {
+    display: flex;
+    padding-bottom: var(--base-font-size);
+    justify-content: space-between;
+}
+
+.weather-container {
+    padding: 24px 32px 24px 32px;
+    background-color: #1E1E20;
+    border-radius: var(--base-font-size);
+}
+
+.weather-metadata {
+    padding-top:var(--base-font-size);
+    opacity: 50%;
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.drumroll {
+    padding: 16px 0px 16px 0px;
+}
+
+.drumroll > h1  {
+    color: var(--primary-color) ;
+}
+
+img {
+    border-radius: 24px ;
 }
 
 
 @media (min-width: 720px) {
+
+    :root {
+        --headings-font-size: 56px;
+    }
+
 
 }
