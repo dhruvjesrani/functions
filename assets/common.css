@@ -61,6 +61,7 @@ img {
     display: flex;
     gap: 8px;
     justify-content:start ;
+    margin: 16px 0px 16px 0px;
 
 }
 
@@ -78,6 +79,33 @@ img {
 .property {
     opacity: 50%;
 }
+
+.time {
+    opacity: 50%;
+    width: 55px;
+}
+
+.step {
+    width: 185px;
+    height: auto;
+}
+
+.water {
+    font-weight: 500;
+    width: 51px;
+    text-align: right;
+}
+
+.instructions-strip {
+    display: flex;
+    gap: 8px;
+    background-color: #1E1E20;
+    width: fit-content;
+    padding: 21.5px;
+    border-radius: 16px ;
+    margin-bottom: 8px;
+}
+
 
 @media (min-width: 720px) {
 
