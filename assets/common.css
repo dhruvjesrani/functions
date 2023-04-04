@@ -57,6 +57,27 @@ img {
     border-radius: 24px ;
 }
 
+.overview {
+    display: flex;
+    gap: 8px;
+    justify-content:start ;
+
+}
+
+.overview-card {
+    display: flex;
+    gap: 24px;
+    background-color: hsla(41, 100%, 64%, 0.2);
+    padding: 24px;
+    width: fit-content;
+    margin-top: var(--base-font-size);
+    border-radius: var(--base-font-size);
+    
+}
+
+.property {
+    opacity: 50%;
+}
 
 @media (min-width: 720px) {
 
