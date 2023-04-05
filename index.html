@@ -13,15 +13,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        
 
-        <title>Weather-Based Cofffee Suggestions!</title>
+        <script defer src="assets/main.js"></script>
+        <link rel="shortcut icon" type="image/png" href="assets/icons/fav.png"/>
+
+
+        <title>Climate Coffee</title>
 
 	</head>
 	<body>
 
         <div class="search">
-            <button><span class="material-symbols-outlined">search</span></button>
+            <span class="material-symbols-outlined">search</span>
             <input type="text" placeholder="Enter city">
+            <button><span class="material-symbols-outlined">arrow_circle_right</span></button>
         </div>
 
         <div class="weather-container">
@@ -34,13 +40,15 @@
                     <div class="forecast"><p>Sunny</p></div>
                 </div>
 
-                <div class="emoji">🌞</div>
+                <div class="emoji">
+                    <img src="assets/icons/forecast-conditions/clear.png" class="weather-icon">
+                </div>
 
             </div>
 
             <div class="weather-metadata">
-                <div class="date"><p>Wednesday, 4 Apr</p></div>
-                <div class="city"><p>New York, USA</p></div>
+                <!-- <div class="date"><p>Wednesday, 4 Apr</p></div> -->
+                <div class="city"><p>Hyderabad</p></div>
             </div>
 
         </div>

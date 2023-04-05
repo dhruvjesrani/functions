@@ -19,8 +19,20 @@ p {
     font-size: var(--base-font-size);
 }
 
+.now {
+    font-size: var(--base-font-size);
+}
+
 h1 {
     font-size: var(--headings-font-size);
+}
+
+.actual-weather {
+    font-size: var(--headings-font-size);
+}
+
+.forecast {
+    font-size: var(--base-font-size);
 }
 
 .search {
@@ -32,6 +44,11 @@ h1 {
     padding: 8px 16px 8px 16px;
     border-radius: 16px;
     width: 350px;
+    justify-content: flex-end ;
+}
+
+input {
+    width: 250px;
 }
 
 .search input[type="text"]::placeholder {
@@ -96,6 +113,8 @@ img {
     border-radius: var(--base-font-size);
     
 }
+
+
 
 .property {
     opacity: 50%;
