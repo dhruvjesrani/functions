@@ -109,7 +109,7 @@ img {
     background-color: hsla(41, 100%, 64%, 0.2);
     padding: 24px;
     width: fit-content;
-    margin-top: var(--base-font-size);
+    margin-top: 0px;
     border-radius: var(--base-font-size);
     
 }
@@ -167,6 +167,17 @@ img {
 
 .button-desktop {
     display: none;
+}
+
+#somethingElseBtn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    margin-top: 16px;
+    border-radius: var(--base-font-size);
+    cursor: pointer;
+    width: 100%;
 }
 
 
@@ -239,7 +250,7 @@ img {
     }
 
     .drumroll {
-        padding: 24px 0px 24px 0px;
+        padding: 16px 0px 16px 0px;
     }
 
 }

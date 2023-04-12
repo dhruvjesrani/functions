@@ -1,0 +1,200 @@
+{
+    "cold": [
+      {
+        "name": "Hot Espresso",
+        "grounds": "18g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+          {
+            "time": "00:00",
+            "instruction": "Bloom with 65ml water",
+            "waterAmount": "65ml"
+          },
+          {
+            "time": "00:30",
+            "instruction": "Pour 200ml water",
+            "waterAmount": "200ml"
+          },
+          {
+            "time": "01:00",
+            "instruction": "Stir and enjoy",
+            "waterAmount": "0ml"
+          }
+        ]
+      }
+    ],
+    "mild": [
+      {
+        "name": "Cappuccino",
+        "grounds": "18g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+          {
+            "time": "00:00",
+            "instruction": "Bloom with 50ml water",
+            "waterAmount": "50ml"
+          },
+          {
+            "time": "00:30",
+            "instruction": "Pour 150ml water",
+            "waterAmount": "150ml"
+          },
+          {
+            "time": "01:00",
+            "instruction": "Froth milk and pour",
+            "waterAmount": "0ml"
+          }
+        ]
+      }
+    ],
+    "warm": [
+      {
+        "name": "Iced Latte",
+        "grounds": "18g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+          {
+            "time": "00:00",
+            "instruction": "Bloom with 45ml water",
+            "waterAmount": "45ml"
+          },
+          {
+            "time": "00:30",
+            "instruction": "Pour 100ml water",
+            "waterAmount": "100ml"
+          },
+          {
+            "time": "01:00",
+            "instruction": "Add ice and milk",
+            "waterAmount": "0ml"
+          }
+        ]
+      },
+
+      {
+        "name": "Iced Pour-Over",
+        "grounds": "30g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+
+          {
+            "time": "Before",
+            "instruction": "Prepare decanter with 200g of ice, rinse paper filter under sink.",
+            "waterAmount": "0ml"
+          },
+          {
+            "time": "Before",
+            "instruction": "Rinse the filter paper thoroughly",
+            "waterAmount": "0ml"
+          },
+          {
+            "time": "00:00",
+            "instruction": "Bloom with 60ml, wait 45s",
+            "waterAmount": "60ml"
+          },
+          {
+            "time": "00:45",
+            "instruction": "Pour 120ml in 30s",
+            "waterAmount": "180ml"
+          },
+          {
+            "time": "01:15",
+            "instruction": "Pour 120ml in 30s",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "01:45",
+            "instruction": "Stir 1x clockwise and 1x counterclockwise, swirl, and let it draw down",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl brew in decanter to melt all the ice. Pour onto fresh ice cubes in a glass.",
+            "waterAmount": "500ml"
+          }
+        ]
+      }
+    ],
+    "hot": [
+      {
+        "name": "Cold Brew",
+        "grounds": "18g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+          {
+            "time": "00:00",
+            "instruction": "Combine 100g coffee with 800ml water",
+            "waterAmount": "800ml"
+          },
+          {
+            "time": "12:00",
+            "instruction": "Strain the mixture",
+            "waterAmount": "0ml"
+          },
+          {
+            "time": "12:30",
+            "instruction": "Serve over ice",
+            "waterAmount": "0ml"
+          }
+        ]
+      },
+
+
+      {
+        "name": "Iced Pour-Over",
+        "grounds": "30g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
+        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "steps": [
+
+          {
+            "time": "Before",
+            "instruction": "Prepare decanter with 200g of ice, rinse paper filter under sink.",
+            "waterAmount": "0ml"
+          },
+          {
+            "time": "Before",
+            "instruction": "Rinse the filter paper thoroughly",
+            "waterAmount": "0ml"
+          },
+          {
+            "time": "00:00",
+            "instruction": "Bloom with 60ml, wait 45s",
+            "waterAmount": "60ml"
+          },
+          {
+            "time": "00:45",
+            "instruction": "Pour 120ml in 30s",
+            "waterAmount": "180ml"
+          },
+          {
+            "time": "01:15",
+            "instruction": "Pour 120ml in 30s",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "01:45",
+            "instruction": "Stir 1x clockwise and 1x counterclockwise, swirl, and let it draw down",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl brew in decanter to melt all the ice. Pour onto fresh ice cubes in a glass.",
+            "waterAmount": "500ml"
+          }
+        ]
+      }
+    ]
+  }
+  
