@@ -1,52 +1,316 @@
 {
     "cold": [
       {
-        "name": "Hot Espresso",
-        "grounds": "18g",
-        "brewer": "V-60",
-        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
-        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "name": "Espresso",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/espresso-mobile.jpg",
+        "imageDesktop": "assets/images/images/espresso-desktop.jpg",
         "steps": [
           {
+            "time": "Before",
+            "instruction": "Grind coffee at 14 clicks. Heavily pre-heat porta-filter and water chamber",
+            "waterAmount": ""
+          },
+          {
+            "time": "Before",
+            "instruction": "Add the coffee to the portafilter, WDT and tamp. Add the distribution screen and place on the Flair",
+            "waterAmount": ""
+          },
+          {
+            "time": "Before",
+            "instruction": "Place the water chamber over the portafilter and add boiling water. Attach the plunger.",
+            "waterAmount": ""
+          },
+          {
             "time": "00:00",
-            "instruction": "Bloom with 65ml water",
-            "waterAmount": "65ml"
+            "instruction": "Pull the lever at 1-2 bars until the first drops start dripping",
+            "waterAmount": "1g"
+          },
+          {
+            "time": "00:10",
+            "instruction": "Ramp up the pressure and pull at 8-9 bars for 30s",
+            "waterAmount": "28g"
+          },
+          {
+            "time": "After",
+            "instruction": "Push out the residual water into a separate container",
+            "waterAmount": "28g"
+          },
+          {
+            "time": "After",
+            "instruction": "Stir with tiny spoon and enjoy!",
+            "waterAmount": "28g"
+          }
+        ]
+      },
+
+      {
+        "name": "Pourover",
+        "grounds": "15g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/images/pourover-mobile.png",
+        "imageDesktop": "assets/images/images/pourover-desktop.png",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 23 clicks, rinse filter paper with hot water and place into V-60 over the carafe. Boil kettle to 95ºC.",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 30g water onto the bed of coffee",
+            "waterAmount": "30ml"
           },
           {
             "time": "00:30",
-            "instruction": "Pour 200ml water",
-            "waterAmount": "200ml"
+            "instruction": "Pour 120g water until 01:10",
+            "waterAmount": "150g"
           },
           {
-            "time": "01:00",
-            "instruction": "Stir and enjoy",
-            "waterAmount": "0ml"
+            "time": "01:15",
+            "instruction": "Pour 100g water and stir 1x clockwise and 1x counter-clockwise",
+            "waterAmount": "250g"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl gently before the water completely draws down. Pour and enjoy!",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+
+      {
+        "name": "Aeropress",
+        "grounds": "12g",
+        "brewer": "Aeropress",
+        "imageMobile": "assets/images/images/aeropress-mobile.jpg",
+        "imageDesktop": "assets/images/images/aeropress-desktop.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 23 clicks. Rinse and place filter paper on the cap. Add in ground coffee to an inverted Aeropress. Boil kettle to 93ºC.",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 200g water onto the grounds",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "00:10",
+            "instruction": "Stir 10x back and forth with the paddle",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "02:00",
+            "instruction": "Stir 10x again, screw on the cap",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "02:10",
+            "instruction": "Invert Aeropress onto a cup and plunge the liquid down until 02:40",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl the coffee in the cup and enjoy!",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Filter Kaapi",
+        "grounds": "15g",
+        "brewer": "South Indian Filter",
+        "imageMobile": "assets/images/images/kaapi-mobile.jpg",
+        "imageDesktop": "assets/images/images/kaapi-mobile.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Add the ground coffee into the brewing chamber, and boil 150g milk on the side",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 30g water onto the grounds and gently swirl the chamber",
+            "waterAmount": "30g"
+          },
+          {
+            "time": "00:30",
+            "instruction": "Pour 60g water and let it steep for at least 8 mins",
+            "waterAmount": "90g"
+          },
+          {
+            "time": "08:00",
+            "instruction": "Pour the coffee decoction into the milk and add 1 tbsp sugar",
+            "waterAmount": ""
+          },
+          {
+            "time": "After",
+            "instruction": "Stretch the drink by pouring it from one cup to another with a distance of at least 4 feet between the cups",
+            "waterAmount": ""
           }
         ]
       }
     ],
     "mild": [
+
       {
-        "name": "Cappuccino",
-        "grounds": "18g",
-        "brewer": "V-60",
-        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
-        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "name": "Espresso",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/espresso-mobile.jpg",
+        "imageDesktop": "assets/images/images/espresso-desktop.jpg",
         "steps": [
           {
+            "time": "Before",
+            "instruction": "Grind coffee at 14 clicks. Heavily pre-heat porta-filter and water chamber",
+            "waterAmount": ""
+          },
+          {
+            "time": "Before",
+            "instruction": "Add the coffee to the portafilter, WDT and tamp. Add the distribution screen and place on the Flair",
+            "waterAmount": ""
+          },
+          {
+            "time": "Before",
+            "instruction": "Place the water chamber over the portafilter and add boiling water. Attach the plunger.",
+            "waterAmount": ""
+          },
+          {
             "time": "00:00",
-            "instruction": "Bloom with 50ml water",
-            "waterAmount": "50ml"
+            "instruction": "Pull the lever at 1-2 bars until the first drops start dripping",
+            "waterAmount": "1g"
+          },
+          {
+            "time": "00:10",
+            "instruction": "Ramp up the pressure and pull at 8-9 bars for 30s",
+            "waterAmount": "28g"
+          },
+          {
+            "time": "After",
+            "instruction": "Push out the residual water into a separate container",
+            "waterAmount": "28g"
+          },
+          {
+            "time": "After",
+            "instruction": "Stir with tiny spoon and enjoy!",
+            "waterAmount": "28g"
+          }
+        ]
+      },
+
+
+      {
+        "name": "Pourover",
+        "grounds": "15g",
+        "brewer": "V-60",
+        "imageMobile": "assets/images/images/pourover-mobile.png",
+        "imageDesktop": "assets/images/images/pourover-desktop.png",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 23 clicks, rinse filter paper with hot water and place into V-60 over the carafe. Boil kettle to 95ºC.",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 30g water onto the bed of coffee",
+            "waterAmount": "30ml"
           },
           {
             "time": "00:30",
-            "instruction": "Pour 150ml water",
-            "waterAmount": "150ml"
+            "instruction": "Pour 120g water until 01:10",
+            "waterAmount": "150g"
           },
           {
-            "time": "01:00",
-            "instruction": "Froth milk and pour",
-            "waterAmount": "0ml"
+            "time": "01:15",
+            "instruction": "Pour 100g water and stir 1x clockwise and 1x counter-clockwise",
+            "waterAmount": "250g"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl gently before the water completely draws down. Pour and enjoy!",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+
+      {
+        "name": "Aeropress",
+        "grounds": "12g",
+        "brewer": "Aeropress",
+        "imageMobile": "assets/images/images/aeropress-mobile.jpg",
+        "imageDesktop": "assets/images/images/aeropress-desktop.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 23 clicks. Rinse and place filter paper on the cap. Add in ground coffee to an inverted Aeropress. Boil kettle to 93ºC.",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 200g water onto the grounds",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "00:10",
+            "instruction": "Stir 10x back and forth with the paddle",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "02:00",
+            "instruction": "Stir 10x again, screw on the cap",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "02:10",
+            "instruction": "Invert Aeropress onto a cup and plunge the liquid down until 02:40",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "After",
+            "instruction": "Swirl the coffee in the cup and enjoy!",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Filter Kaapi",
+        "grounds": "15g",
+        "brewer": "South Indian Filter",
+        "imageMobile": "assets/images/images/kaapi-mobile.jpg",
+        "imageDesktop": "assets/images/images/kaapi-mobile.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Add the ground coffee into the brewing chamber, and boil 150g milk on the side",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Pour 30g water onto the grounds and gently swirl the chamber",
+            "waterAmount": "30g"
+          },
+          {
+            "time": "00:30",
+            "instruction": "Pour 60g water and let it steep for at least 8 mins",
+            "waterAmount": "90g"
+          },
+          {
+            "time": "08:00",
+            "instruction": "Pour the coffee decoction into the milk and add 1 tbsp sugar",
+            "waterAmount": ""
+          },
+          {
+            "time": "After",
+            "instruction": "Stretch the drink by pouring it from one cup to another with a distance of at least 4 feet between the cups",
+            "waterAmount": ""
           }
         ]
       }
