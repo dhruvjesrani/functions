@@ -154,7 +154,135 @@
             "waterAmount": ""
           }
         ]
+      },
+
+      {
+        "name": "Cortado",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/cortado-mobile.jpg",
+        "imageDesktop": "assets/images/images/cortado-desktop.jpg",
+        "steps": [
+          {
+            "time": "Step 1",
+            "instruction": "Pull a shot of espresso in 40s which includes a 10s pre-infusion",
+            "waterAmount": "28g"
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Heat up 60ml milk to 65ºC",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Froth the milk in a French Press until micro-foam is achieved (3 big + 30+30+30+20 smaller plunges under the surface)",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Transfer into milk jug and pour into the espresso",
+            "waterAmount": "90g"
+          }
+        ]
+      },
+
+      {
+        "name": "Moka Espresso",
+        "grounds": "25g",
+        "brewer": "Moka Pot",
+        "imageMobile": "assets/images/images/moka-mobile.jpg",
+        "imageDesktop": "assets/images/images/moka-desktop.jpg",
+        "steps": [
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 18 clicks. Add to the coffee chamber and evenly distribute without tamping",
+            "waterAmount": "25g"
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Fill the water chamber until the pressure valve with boiling water, add the coffee chamber and collection chamber and screw tight",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Place on stovetop on low heat and wait until all the coffee has been brewed",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Take off the stovetop when the coffee stops pouring in. Pour coffee into a cup, add 1/2tbsp sugar and serve",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "French Press",
+        "grounds": "18g",
+        "brewer": "French Press",
+        "imageMobile": "assets/images/images/french-press-mobile.jpg",
+        "imageDesktop": "assets/images/images/french-press-desktop.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 25 clicks and add to pre-heated French Press",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Add water to the coffee fresh off a boil",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "04:00",
+            "instruction": "Grab two spoons, stir the crust on top, stuff will begin to fall down, scoop away everything that’s left floating on top. Do nothing for 5+ minutes",
+            "waterAmount": ""
+          },
+          {
+            "time": "12:00",
+            "instruction": "Put the plunger right on the surface of the coffee, pour coffee in the cup",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+
+      {
+        "name": "Mocha",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/mocha-mobile.jpg",
+        "imageDesktop": "assets/images/images/mocha-desktop.jpg",
+        "steps": [
+          {
+            "time": "Step 1",
+            "instruction": "Add 1/2 tbsp unsweetened cocoa powder to a cup with 1/2 tbsp sugar and a pinch of cinnamon. Mix",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Pull a shot of espresso into the cup and mix thoroughly",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Heat up 200ml milk to 65ºC",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Froth the milk in a French Press until micro-foam is achieved (3 big + 30+30+30+20 smaller plunges under the surface)",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 5",
+            "instruction": "Transfer into milk jug and pour into the espresso",
+            "waterAmount": ""
+          }
+        ]
       }
+
+
     ],
     "mild": [
 
@@ -313,33 +441,143 @@
             "waterAmount": ""
           }
         ]
-      }
-    ],
-    "warm": [
+      },
+
       {
-        "name": "Iced Latte",
-        "grounds": "18g",
-        "brewer": "V-60",
-        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
-        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
+        "name": "Cortado",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/cortado-mobile.jpg",
+        "imageDesktop": "assets/images/images/cortado-desktop.jpg",
         "steps": [
           {
-            "time": "00:00",
-            "instruction": "Bloom with 45ml water",
-            "waterAmount": "45ml"
+            "time": "Step 1",
+            "instruction": "Pull a shot of espresso in 40s which includes a 10s pre-infusion",
+            "waterAmount": "28g"
           },
           {
-            "time": "00:30",
-            "instruction": "Pour 100ml water",
-            "waterAmount": "100ml"
+            "time": "Step 2",
+            "instruction": "Heat up 60ml milk to 65ºC",
+            "waterAmount": ""
           },
           {
-            "time": "01:00",
-            "instruction": "Add ice and milk",
-            "waterAmount": "0ml"
+            "time": "Step 3",
+            "instruction": "Froth the milk in a French Press until micro-foam is achieved (3 big + 30+30+30+20 smaller plunges under the surface)",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Transfer into milk jug and pour into the espresso",
+            "waterAmount": "90g"
           }
         ]
       },
+
+      {
+        "name": "Moka Espresso",
+        "grounds": "25g",
+        "brewer": "Moka Pot",
+        "imageMobile": "assets/images/images/moka-mobile.jpg",
+        "imageDesktop": "assets/images/images/moka-desktop.jpg",
+        "steps": [
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 18 clicks. Add to the coffee chamber and evenly distribute without tamping",
+            "waterAmount": "25g"
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Fill the water chamber until the pressure valve with boiling water, add the coffee chamber and collection chamber and screw tight",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Place on stovetop on low heat and wait until all the coffee has been brewed",
+            "waterAmount": "200g"
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Take off the stovetop when the coffee stops pouring in. Pour coffee into a cup, add 1/2tbsp sugar and serve",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "French Press",
+        "grounds": "18g",
+        "brewer": "French Press",
+        "imageMobile": "assets/images/images/french-press-mobile.jpg",
+        "imageDesktop": "assets/images/images/french-press-desktop.jpg",
+        "steps": [
+          {
+            "time": "Before",
+            "instruction": "Grind coffee at 25 clicks and add to pre-heated French Press",
+            "waterAmount": ""
+          },
+          {
+            "time": "00:00",
+            "instruction": "Add water to the coffee fresh off a boil",
+            "waterAmount": "300ml"
+          },
+          {
+            "time": "04:00",
+            "instruction": "Grab two spoons, stir the crust on top, stuff will begin to fall down, scoop away everything that’s left floating on top. Do nothing for 5+ minutes",
+            "waterAmount": ""
+          },
+          {
+            "time": "12:00",
+            "instruction": "Put the plunger right on the surface of the coffee, pour coffee in the cup",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+
+      {
+        "name": "Mocha",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/mocha-mobile.jpg",
+        "imageDesktop": "assets/images/images/mocha-desktop.jpg",
+        "steps": [
+          {
+            "time": "Step 1",
+            "instruction": "Add 1/2 tbsp unsweetened cocoa powder to a cup with 1/2 tbsp sugar and a pinch of cinnamon. Mix",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Pull a shot of espresso into the cup and mix thoroughly",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Heat up 200ml milk to 65ºC",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Froth the milk in a French Press until micro-foam is achieved (3 big + 30+30+30+20 smaller plunges under the surface)",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 5",
+            "instruction": "Transfer into milk jug and pour into the espresso",
+            "waterAmount": ""
+          }
+        ]
+      }
+
+
+
+    ],
+
+
+
+
+
+    "warm": [
 
       {
         "name": "Iced Pour-Over",
@@ -383,35 +621,104 @@
             "time": "After",
             "instruction": "Swirl brew in decanter to melt all the ice. Pour onto fresh ice cubes in a glass.",
             "waterAmount": "500ml"
+          }
+        ]
+      },
+
+      {
+        "name": "Cold Brew",
+        "grounds": "100g",
+        "brewer": "Jar",
+        "imageMobile": "assets/images/images/cold-brew-mobile.jpg",
+        "imageDesktop": "assets/images/images/cold-brew-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 33 clicks and add to a jar",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Fill up the jar with 1000 liters of room temperature water (1:10 ratio) and let it steep for 10 hours",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Pour into another container through a filter paper (V-60) for a clean brew with no sediment",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Dilute with water to taste",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Vietnamese Coffee",
+        "grounds": "15g",
+        "brewer": "South Indian Filter",
+        "imageMobile": "assets/images/images/condensed-coffee-mobile.jpg",
+        "imageDesktop": "assets/images/images/condensed-coffee-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 18 clicks and add to the upper chamber",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Place chamber on top of cup containing 20g sweetened condensed milk",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Pour 30ml water, gently swirl and wait for 30s",
+            "waterAmount": "30ml"
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Pour the remaining water and let it all drip completely over the condensed milk",
+            "waterAmount": "90ml"
+          },
+          {
+            "time": "Step 5",
+            "instruction": "Mix thoroughly, add to a shaker with ice cubes and shake to rapidly cool down. Serve",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Espresso Tonic",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/tonic-mobile.jpg",
+        "imageDesktop": "assets/images/images/tonic-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Pour tonic water into a glass and add 3 cubes of ice",
+            "waterAmount": "100ml"
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Pull a shot of espresso into a separate shot glass",
+            "waterAmount": "28ml"
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Gently pour the espresso over the surface of the tonic water with a spoon",
+            "waterAmount": "128ml"
           }
         ]
       }
     ],
     "hot": [
-      {
-        "name": "Cold Brew",
-        "grounds": "18g",
-        "brewer": "V-60",
-        "imageMobile": "assets/images/sunny/iced-pourover-mobile-square.jpg",
-        "imageDesktop": "assets/images/sunny/icedpourover.jpg",
-        "steps": [
-          {
-            "time": "00:00",
-            "instruction": "Combine 100g coffee with 800ml water",
-            "waterAmount": "800ml"
-          },
-          {
-            "time": "12:00",
-            "instruction": "Strain the mixture",
-            "waterAmount": "0ml"
-          },
-          {
-            "time": "12:30",
-            "instruction": "Serve over ice",
-            "waterAmount": "0ml"
-          }
-        ]
-      },
 
 
       {
@@ -456,6 +763,99 @@
             "time": "After",
             "instruction": "Swirl brew in decanter to melt all the ice. Pour onto fresh ice cubes in a glass.",
             "waterAmount": "500ml"
+          }
+        ]
+      },
+
+      {
+        "name": "Cold Brew",
+        "grounds": "100g",
+        "brewer": "Jar",
+        "imageMobile": "assets/images/images/cold-brew-mobile.jpg",
+        "imageDesktop": "assets/images/images/cold-brew-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 33 clicks and add to a jar",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Fill up the jar with 1000 liters of room temperature water (1:10 ratio) and let it steep for 10 hours",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Pour into another container through a filter paper (V-60) for a clean brew with no sediment",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Dilute with water to taste",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Vietnamese Coffee",
+        "grounds": "15g",
+        "brewer": "South Indian Filter",
+        "imageMobile": "assets/images/images/condensed-coffee-mobile.jpg",
+        "imageDesktop": "assets/images/images/condensed-coffee-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Grind coffee at 18 clicks and add to the upper chamber",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Place chamber on top of cup containing 20g sweetened condensed milk",
+            "waterAmount": ""
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Pour 30ml water, gently swirl and wait for 30s",
+            "waterAmount": "30ml"
+          },
+          {
+            "time": "Step 4",
+            "instruction": "Pour the remaining water and let it all drip completely over the condensed milk",
+            "waterAmount": "90ml"
+          },
+          {
+            "time": "Step 5",
+            "instruction": "Mix thoroughly, add to a shaker with ice cubes and shake to rapidly cool down. Serve",
+            "waterAmount": ""
+          }
+        ]
+      },
+
+      {
+        "name": "Espresso Tonic",
+        "grounds": "14g",
+        "brewer": "Flair",
+        "imageMobile": "assets/images/images/tonic-mobile.jpg",
+        "imageDesktop": "assets/images/images/tonic-desktop.jpg",
+        "steps": [
+
+          {
+            "time": "Step 1",
+            "instruction": "Pour tonic water into a glass and add 3 cubes of ice",
+            "waterAmount": "100ml"
+          },
+          {
+            "time": "Step 2",
+            "instruction": "Pull a shot of espresso into a separate shot glass",
+            "waterAmount": "28ml"
+          },
+          {
+            "time": "Step 3",
+            "instruction": "Gently pour the espresso over the surface of the tonic water with a spoon",
+            "waterAmount": "128ml"
           }
         ]
       }

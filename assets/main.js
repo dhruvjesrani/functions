@@ -23,7 +23,7 @@ function getWeatherImage(weatherDesc) {
 
   };
 
-  return images[weatherDesc] || "assets/icons/forecast-conditions/clear";
+  return images[weatherDesc];
 }
 
 
@@ -84,7 +84,6 @@ async function fetchWeatherData(city) {
   
   function displayRecipe(recipes, temperature) {
     const category = getCategory(temperature);
-    // const recipe = recipes[category][0];
     const recipeList = recipes[category];
     const recipe = getRandomRecipe(recipeList);
     
@@ -210,3 +209,16 @@ recipeContainer.addEventListener("click", async (event) => {
     }
   }
 });
+
+
+// Javascript references + attributions:
+// https://www.youtube.com/@WebDevSimplified
+// https://www.youtube.com/watch?v=FOD408a0EzU&t=444s&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=tgbRY96q-KM&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=XF1_MlZ5l6M&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=cuEtnrL9-H0&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=QMwyNnjAils&t=1631s&ab_channel=codewithsadee
+// https://www.youtube.com/watch?v=OE7kml0pigw&t=2267s&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=OE7kml0pigw&t=2267s&ab_channel=WebDevSimplified
+// https://www.youtube.com/watch?v=MIYQR-Ybrn4&t=2248s&ab_channel=EasyTutorials
+// Explanation throughout the process + debugging help + moral support by one of my close friends, Yash G, a software developer.
