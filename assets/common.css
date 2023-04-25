@@ -125,6 +125,8 @@ img {
 
 }
 
+
+
 .overview-card {
     display: flex;
     gap: 24px;
@@ -219,7 +221,7 @@ img {
 }
 
 
-@media (min-width: 501px) {
+@media (min-width: 700px) {
 
     :root {
         --headings-font-size: 56px;
@@ -231,6 +233,11 @@ img {
         padding: 0; 
     }
 
+    #somethingElseBtn {
+        width: fit-content;
+    }
+
+
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -239,7 +246,8 @@ img {
 
     .under-weather-content {
         display: flex;
-        gap: 80px;
+        gap: 10px;
+        justify-content: space-between;
     }
 
     .weather-container {
@@ -297,4 +305,21 @@ img {
         padding: 16px 0px 16px 0px;
     }
 
+    .step {
+        min-width: 250px;
+        width: 20vw;
+    }
+
+    .overview-card {
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .coffee-quantity {
+        width: fit-content;
+    }
+
+    .pre.brewing-device {
+        width: 50px;
+    }
 }
