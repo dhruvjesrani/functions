@@ -193,7 +193,15 @@ submitBtn.addEventListener("click", async () => {
   displayRecipe(recipes, temperature);
 });
 
-
+cityInput.addEventListener("keydown", async (event) => {
+  if (event.key === "Enter") {
+    const city = cityInput.value;
+    const weatherData = await fetchWeatherData(city);
+    const temperature = displayWeather(weatherData);
+    const recipes = await fetchRecipes();
+    displayRecipe(recipes, temperature);
+  }
+});
 
 
 recipeContainer.addEventListener("click", async (event) => {
