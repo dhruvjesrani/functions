@@ -1,7 +1,7 @@
 :root {
     --main-font: "neue-haas-grotesk-text", sans-serif;
     --base-font-size: 16px;
-    --headings-font-size: 30px;
+    --headings-font-size: 32px;
     --padding: 12px;
     --background-color: #111114;
     --light-color: #E2E2E2;
@@ -220,12 +220,30 @@ img {
     width: 350px;
 }
 
+#somethingElseBtn:hover {
+    background-color: #bc8e2b;
+}
+
+#somethingElseBtn:active {
+
+    background-color: #7d5d15;
+    color: var(--light-color);
+    
+}
+
 
 @media (min-width: 700px) {
 
     :root {
-        --headings-font-size: 56px;
+        --headings-font-size: 40px;
     }
+
+    .product-title {
+        font-size: var(--headings-font-size);
+        margin-top: var(--padding);
+    }
+
+
 
     body {
         margin: 0;
